@@ -9,11 +9,11 @@ BODY {
   font-weight: 400;
 }
 
-
 #container {
   width: 100%
   max-width:1200px;
   margin: 0 auto;
+  padding-bottom:50px;
 }
 /*banner name at top*/
 #name {
@@ -37,7 +37,7 @@ BODY {
   margin-top: 20px;
   margin-right: 0;
   margin-bottom: 0;
-  margin-left: 0;  
+  margin-left: 0;
 }
 
 /*section titles*/
@@ -53,25 +53,26 @@ BODY {
   margin-right: 0;
   width: 70%;
   min-width: 300px;
+  padding-left: 20px;
 }
 
 /*job titles*/
 .jobtitle {
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 600px;
 }
 
 /*job organization*/
 .organization {
   font-size: 1.25em;
-  font-weight: 400;
+  font-weight: 400px;
 }
 
 /*job dates*/
 .date {
   font-size: 1em;
   font-style: italic;
-  font-weight: 400;
+  font-weight:400px;
   margin-top: 2px;
   margin-right: 0;
   margin-bottom: 0;
@@ -85,6 +86,7 @@ BODY {
 /*contact info, education, skills lists*/
 ul li {
   font-size: 1em;
+  padding-left: 20px;
 }
 
 /*contact info only*/
@@ -92,7 +94,7 @@ ul li {
   margin: 0;
   padding: 0;
   text-align: center;
-  display: inline;
+  display: inline-block;
 }
 
 #education {
@@ -107,4 +109,11 @@ ul li {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 0;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
