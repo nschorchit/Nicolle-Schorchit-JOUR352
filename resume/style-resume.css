@@ -32,6 +32,12 @@ BODY {
   color: #33485e;
   text-transform: uppercase;
   text-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;  
 }
 
 /*section titles*/
