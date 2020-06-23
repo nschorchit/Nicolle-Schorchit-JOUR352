@@ -12,13 +12,35 @@ h1 {
   font-weight: bold;
 }
 
+.img1 {
+  border-radius: 2px;
+}
 #byline {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
+  line-height: 20px;
 }
 
 p {
   font-family: Georgia, serif;
   font-size: 13px;
+  line-height: 20px;
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 14px;
+}
+.list-unstyled {
+  list-style: none;
+  margin-left: 0;
+  line-height: 20px;
+  padding-left: 0;
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+.smaller-font {
+  font-size: 10px;
 }
