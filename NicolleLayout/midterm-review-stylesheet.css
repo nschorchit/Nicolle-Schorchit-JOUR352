@@ -6,3 +6,19 @@
 .banner {
   width:100%;
 }
+h1 {
+  font-family:Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
