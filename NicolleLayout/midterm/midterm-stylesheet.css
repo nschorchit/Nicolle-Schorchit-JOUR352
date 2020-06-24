@@ -106,8 +106,13 @@ p {
 .list-unstyled {
   list-style: none;
   margin-left: 0;
+  margin-bottom: 20px;
   line-height: 20px;
   padding-left: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+}
+
+.links {
+  text-align: left;
 }
