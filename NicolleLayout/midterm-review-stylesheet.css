@@ -3,6 +3,17 @@
   margin:0 auto;
 }
 
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+#blockquote {
+  text-align: center;
+  font-style: italic;
+}
 .banner {
   width:100%;
 }
@@ -12,21 +23,30 @@ h1 {
   font-weight: bold;
 }
 
+.img {
+  border-radius: 2px;
+}
 .img1 {
   border-radius: 2px;
+  float: left;
+  padding: 5px 20px 0 0px;
+  width: 450px;
+  height: 350px;
+}
+
+.image2 {
+  border-radius: 3px;
+  float: right;
+  padding: 5px 0 0 20px;
+  width: 450px;
+  height: 350px;
+}
 
 .figcap1 {
   font-family:Helvetica;
   font-size: 12px;
   color: gray;
   width: 750px;
-}
-}
-#byline {
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 20px;
 }
 
 p {
