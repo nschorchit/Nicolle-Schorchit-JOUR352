@@ -258,3 +258,8 @@ h3 {
     left: 0%;
   }
 }
+
+/* copyright footer */
+.footer-bottom {
+  right: 350px;
+}
