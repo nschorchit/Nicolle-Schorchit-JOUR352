@@ -74,6 +74,14 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 2px solid white;
+  padding: 5px 5px 5px 5px;
+}
+
 .icons {
   border-radius: 50%;
   width: 50px;
