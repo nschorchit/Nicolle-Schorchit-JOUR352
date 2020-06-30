@@ -260,6 +260,6 @@ h3 {
 }
 
 /* copyright footer */
-.footer-bottom {
-  right: 350px;
+.footer {
+  text-align: center;
 }
