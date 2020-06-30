@@ -102,6 +102,9 @@ h3 {
   top: -350px;
 }
 
+.clip {
+  top: -230px;
+}
 /* Place the sectionheader container centered */
 .sectionheader {
   padding: 10px 40px;
@@ -139,7 +142,10 @@ h3 {
   top: -340px;
 }
 
-
+.left-skills {
+  left: -27.4%;
+  top: -340px;
+}
 /* Place the container to the right */
 .right {
   left: 27.4%;
