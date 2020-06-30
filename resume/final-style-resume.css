@@ -90,10 +90,18 @@ h3 {
   border: 6px solid #20c997;
   left: 425px;
   top: 45px;
-  z-index: 2;
-
+  z-index: 2
 
 }
+
+.experiences {
+  top: -75px;
+}
+
+.skills {
+  top: -350px;
+}
+
 /* Place the sectionheader container centered */
 .sectionheader {
   padding: 10px 40px;
@@ -110,11 +118,27 @@ h3 {
   position: relative;
   z-index: 2;
 }
+
+.two {
+  top: -100px;
+}
 /* Place the container to the left */
 .left {
   left: -27.4%;
   top: 35px;
 }
+
+/*Place the left container up */
+.left-two {
+  left: -27.4%;
+  top: -35px;
+}
+
+.left-three {
+  left: -27.4%;
+  top: -340px;
+}
+
 
 /* Place the container to the right */
 .right {
@@ -125,6 +149,34 @@ h3 {
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid grey;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent grey;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-two::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid grey;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent grey;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-three::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -150,6 +202,7 @@ h3 {
   border-width: 10px 10px 10px 0;
   border-color: transparent grey transparent transparent;
 }
+
 
 .right::after {
   left: -16px;
