@@ -1,0 +1,25 @@
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent {
+  font-family: 'Poppins', sans-serif;
+}
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
