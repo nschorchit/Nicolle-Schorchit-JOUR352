@@ -1,9 +1,18 @@
+/*CSS style sheet*/
+
+/* headline sstyle here */
+
 .headline {
   font-size: 3em;
   font-weight: 700;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(90deg, #10EDF5, #28BCE0, #556CBC, #7343A9, #9B0F8C, #B8007F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+/* byline style here */
 
 .byline {
   font-size: 1em;
@@ -12,6 +21,7 @@
   text-align: center;
 }
 
+/* navbar style here */
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +29,44 @@
 #navbarSupportedContent {
   font-family: 'Poppins', sans-serif;
 }
-}
+
+
+/* body text style here */
+
 p {
   font-family: 'Roboto', sans-serif;
+}
+
+.chapter {
+  font-family: 'Poppins', sans-serif;
+}
+
+.body {
+  line-height: 20px;
+}
+
+/* aerospace women picture/ lead picture */
+
+.image-one {
+  text-align: center;
+  width: 1000px;
+  margin: 20px 20px 20px 20px;
+}
+
+.caption-one {
+  width: 1000px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: gray;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+/* footer here */
+.footer {
+  clear: both;
+  padding: 10px;
+  background-color: #999;
+  color: white;
+  text-decoration: right;
 }
