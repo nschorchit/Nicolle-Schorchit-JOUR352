@@ -24,10 +24,13 @@
 /* navbar style here */
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
+  color: #ff48a5;
 }
+
 
 #navbarSupportedContent {
   font-family: 'Poppins', sans-serif;
+  color: #ff48a5;
 }
 
 
