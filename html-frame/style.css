@@ -1,9 +1,10 @@
 /*CSS style sheet*/
 
-/* headline sstyle here */
+/* headline style here */
+
 
 .headline {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 700;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -42,6 +43,15 @@ p {
 
 .chapter {
   font-family: 'Poppins', sans-serif;
+  padding-top: 45px;
+  border-bottom: 5px solid #ff0081;
+  display: inline-block;
+  line-height: 0.85;
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
 }
 
 .body {
@@ -64,6 +74,22 @@ p {
   padding-left: 20px;
   padding-bottom: 20px;
 }
+
+
+/*Four Column Boostrap here */
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /* footer here */
 .footer {
