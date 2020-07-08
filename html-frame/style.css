@@ -58,14 +58,16 @@ p {
   line-height: 20px;
 }
 
-/* aerospace women picture/ lead picture */
+/* aerospace women picture/ spalsh area */
 
-.image-one {
+.hero-container {
+  position: relative;
   text-align: center;
-  width: 1000px;
-  margin: 20px 20px 20px 20px;
 }
 
+.hero-image {
+  width: 100%;
+}
 .caption-one {
   width: 1000px;
   font-family: Roboto;
