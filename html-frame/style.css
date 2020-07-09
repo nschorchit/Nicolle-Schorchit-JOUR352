@@ -28,6 +28,12 @@
   color: #ff48a5;
 }
 
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  background: -webkit-linear-gradient(90deg, #10EDF5, #28BCE0, #556CBC, #7343A9, #9B0F8C, #B8007F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 #navbarSupportedContent {
   font-family: 'Poppins', sans-serif;
