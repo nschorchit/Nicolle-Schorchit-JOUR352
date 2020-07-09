@@ -63,6 +63,12 @@ p {
   font-weight: 600;
 }
 
+.sub-chapter {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1em;
+  color: #ff0081;
+  font-weight: 600;
+}
 
 .body {
   line-height: 20px;
@@ -198,9 +204,26 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-
 }
 
+/*HEADSHOTS*/
+.kerrin {
+  display: inline-block;
+  width: 250px;
+  height:350px;
+  padding: 1em 1em 1em 0;
+  float: left;
+  border-radius: 40% 10%;
+}
+
+/*bullet list for interviewees*/
+.list {
+  list-style: none;
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  line-height: 50px;
+
+}
 /* footer here */
 .footer {
   clear: both;
