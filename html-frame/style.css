@@ -19,7 +19,10 @@
   font-size: 1em;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
+  border-bottom: 5px solid #ff0081;
   text-align: center;
+  display: inline-block;
+  line-height: 0.85;
 }
 
 /* navbar style here */
