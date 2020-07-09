@@ -4,7 +4,7 @@
 
 
 .headline {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 700;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -15,17 +15,23 @@
 
 /* byline style here */
 
+
+#byline {
+  text-align: center;
+  margin-top: 20px
+}
 .byline {
   font-size: 1em;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-  border-bottom: 5px solid #ff0081;
+  border-bottom: 3px solid #ff0081;
   text-align: center;
   display: inline-block;
   line-height: 0.85;
 }
 
 /* navbar style here */
+
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
   color: #ff48a5;
@@ -53,14 +59,8 @@ p {
 .chapter {
   font-family: 'Poppins', sans-serif;
   padding-top: 45px;
-  border-bottom: 5px solid #ff0081;
-  display: inline-block;
-  line-height: 0.85;
-  text-shadow:
-    2px 2px white,
-    2px -2px white,
-    -2px 2px white,
-    -2px -2px white;
+  color: #ff0081;
+  font-weight: 600;
 }
 
 .body {
@@ -143,4 +143,13 @@ p {
   background-color: #999;
   color: white;
   text-decoration: right;
+}
+
+
+/* Media queries */
+
+@media(max-width:650px)
+p {
+  padding-left: 20px;
+  padding-right: 10px;
 }
