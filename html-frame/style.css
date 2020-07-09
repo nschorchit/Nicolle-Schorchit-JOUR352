@@ -63,6 +63,7 @@ p {
   font-weight: 600;
 }
 
+
 .body {
   line-height: 20px;
 }
@@ -95,6 +96,23 @@ p {
   opacity: 1;
 }
 
+/*DEGREE GRAPH*/
+.degree-graph {
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+}
+
+/* GENDER GRAPH*/
+.gender-graph {
+  border: none;
+  width:450px;
+  height: 325px;
+  margin-top: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+
+}
 /*-----------------------------------------------------------------------*/
 .css-typing p{
   border-right: .15em solid #ff0081;
@@ -153,9 +171,7 @@ p {
     border-color: transparent;
   }
 }
-
-
-
+/*MAKE IMG THE BUTTON*/
 .img-as-btn {
   border-radius: 30px;
   width: 245px;
@@ -173,6 +189,17 @@ p {
   clear: both;
 }
 
+/*DOMINICA MAP*/
+.dominica-map {
+  width:500px;
+  height: 450px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+}
 
 /* footer here */
 .footer {
