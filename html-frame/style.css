@@ -95,37 +95,75 @@ p {
   opacity: 1;
 }
 
-.hero-hed {
-  font-size: 4em;
+/*-----------------------------------------------------------------------*/
+.css-typing p{
+  border-right: .15em solid #ff0081;
   font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  white-space: nowrap;
+  overflow: hidden;
   color: white;
-  margin-top: 0;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .10em solid #ff0081; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 4s steps(35, end),
-    blink-caret .75s step-end infinite;
+}
+.css-typing p:nth-child(1) {
+  width: 5.7em;
+  animation: type 2.5s steps(40, end);
+  animation-fill-mode: forwards;
+  margin-left: 7em;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.css-typing p:nth-child(2) {
+  width: 12.2em;
+  opacity: 0;
+  animation: type2 2.5s steps(35, end), blink .5s step-end infinite alternate;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  margin-left: 3.7em;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #ff0081; }
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid #ff0081;
+  }
+  100% {
+    border: none;
+  }
 }
-/*Four Column Boostrap here */
 
-.column {
-  float: left;
-  width: 25%;
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid #ff0081;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
+
+.img-as-btn {
+  border-radius: 30px;
+  width: 245px;
+  margin: 0;
+}
+
+#img-as-btn {
+  text-align: center;
 }
 
 /* Clear floats after the columns */
