@@ -56,6 +56,17 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.p-body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+}
+
+.p-intro {
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  padding-top: 100px;
+
+}
 .chapter {
   font-family: 'Poppins', sans-serif;
   padding-top: 45px;
@@ -104,22 +115,29 @@ p {
 
 /*DEGREE GRAPH*/
 .degree-graph {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 1em;
-
 }
 
 /* GENDER GRAPH*/
 .gender-graph {
   border: none;
-  width:450px;
-  height: 325px;
-  margin-top: 1em;
-  margin-right: 1em;
+  width:220px;
+  height: 75px;
+  margin-top: auto;
   margin-bottom: 1em;
+  margin-left: 1em;
+  float: right;
+  display: inline-block;
+  top: 30px;
 
 }
 /*-----------------------------------------------------------------------*/
+
+a:hover {
+  background-color: #ffb1d8;
+}
+
 .css-typing p{
   border-right: .15em solid #ff0081;
   font-family: 'Poppins', sans-serif;
@@ -216,6 +234,14 @@ p {
   border-radius: 40% 10%;
 }
 
+.brooke {
+  display: inline-block;
+  width: 400px;
+  height:350px;
+  padding: 1em 1em 1em 0;
+  float: left;
+  border-radius: 40% 10%;
+}
 /*bullet list for interviewees*/
 .list {
   list-style: none;
