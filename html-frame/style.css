@@ -140,8 +140,10 @@ p {
   border: none;
   width:425px;
   height: 425px;
-  display: block;
-  overflow-x: hidden;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: 1em;
+  margin-left: 1em;
 
 }
 /*-----------------------------------------------------------------------*/
