@@ -134,15 +134,17 @@ p {
 
 }
 
-/* GENDER GRAPH*/
+/* GENDER MATH GRAPH*/
 .gender-graph-math {
+  float: right;
   border: none;
-  width:50%;
+  width:500px;
   height: 100px;
   margin-top: auto;
   margin-bottom: 1em;
   margin-left: 1em;
-  float: right;
+  display: inline-block;
+
 }
 /*-----------------------------------------------------------------------*/
 
