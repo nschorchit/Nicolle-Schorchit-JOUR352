@@ -141,7 +141,7 @@ p {
   width:425px;
   height: 425px;
   display: inline-block;
-  margin-top: auto;
+  margin-top: -100px;
   margin-bottom: 1em;
   margin-left: 1em;
 
@@ -311,8 +311,26 @@ a:hover {
 
 /* Media queries */
 
-@media(max-width:650px)
-p {
-  padding-left: 20px;
-  padding-right: 10px;
+@media screen and (max-width: 768px) {
+  /*Add CSS that only activates on screens less than 480px here*/
+.container {width:100%;}
+.col-md-3 {width: 50%;}
+.p-body {font-size: 70%;}
+.p-intro {font-size: 70%;}
+.chapter {font-size: 75%;}
+.sub-chapter {font-size:75%;}
+.byline {font-size: 70%;}
+.headline {font-size: 85%;}
+.caption-one { font-size: 55%;}
+.css-typing {font-size: 28%;}
+.nav-brand {font-size: 60%;}
+.nav-link {font-size: 60%;}
+.gender-graph {width: 60%;
+                height:50%;}
+.img-as-btn {width: 100%;}
+.link {font-size: 40%; line-height: 40%;}
+.kerrin {width: 40%; height: 40%;}
+.brooke {width: 40%; height: 40%;}
+.dominica-map {width:300px; height: 200px;}
+.footer {}
 }
