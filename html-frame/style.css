@@ -311,10 +311,9 @@ a:hover {
 
 /* Media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (min-width: 320px) {
   /*Add CSS that only activates on screens less than 768px here*/
 .container {width:100%;}
-.col-md-3 {width: 50%;}
 .p-body {font-size: 80%;}
 .p-intro {font-size: 80%;}
 .chapter {font-size: 90%;}
@@ -322,7 +321,7 @@ a:hover {
 .byline {font-size: 80%;}
 .headline {font-size: 97%;}
 .caption-one { font-size: 55%;}
-.css-typing {font-size: 45%;}
+.css-typing {font-size: 32%;}
 .nav-brand {font-size: 60%;}
 .nav-link {font-size: 60%;}
 .gender-graph {width: 60%; height:50%;}
