@@ -164,7 +164,7 @@ a:hover {
   width: 5.7em;
   animation: type 2.5s steps(40, end);
   animation-fill-mode: forwards;
-  margin-left: 7em;
+  margin-left: 5.7em;
 }
 
 .css-typing p:nth-child(2) {
@@ -173,7 +173,7 @@ a:hover {
   animation: type2 2.5s steps(35, end), blink .5s step-end infinite alternate;
   animation-delay: 3s;
   animation-fill-mode: forwards;
-  margin-left: 3.7em;
+  margin-left: 2.3em;
 }
 
 @keyframes type {
@@ -312,25 +312,49 @@ a:hover {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-  /*Add CSS that only activates on screens less than 480px here*/
+  /*Add CSS that only activates on screens less than 768px here*/
 .container {width:100%;}
 .col-md-3 {width: 50%;}
-.p-body {font-size: 70%;}
-.p-intro {font-size: 70%;}
-.chapter {font-size: 75%;}
-.sub-chapter {font-size:75%;}
-.byline {font-size: 70%;}
-.headline {font-size: 85%;}
+.p-body {font-size: 80%;}
+.p-intro {font-size: 80%;}
+.chapter {font-size: 90%;}
+.sub-chapter {font-size:90%;}
+.byline {font-size: 80%;}
+.headline {font-size: 97%;}
 .caption-one { font-size: 55%;}
-.css-typing {font-size: 28%;}
+.css-typing {font-size: 45%;}
 .nav-brand {font-size: 60%;}
 .nav-link {font-size: 60%;}
-.gender-graph {width: 60%;
-                height:50%;}
+.gender-graph {width: 60%; height:50%;}
+.degree-graph {width: 60%; height:50%;}
 .img-as-btn {width: 100%;}
 .link {font-size: 40%; line-height: 40%;}
 .kerrin {width: 40%; height: 40%;}
 .brooke {width: 40%; height: 40%;}
 .dominica-map {width:300px; height: 200px;}
-.footer {}
+.footer {font-size: 60%;}
+.arushi-code {width:300px; height: 200px;}
+.puzzles {width:290px; height: 250px; padding-left:0; padding-right: 15px;}
+.osv {width:290px; height: 250px; padding-left:0; padding-right: 15px;}
+.list {font-size: 80%; line-height:100%;}
+.gender-graph-math {width:300px; height: 250px; padding-left:; padding-right: 0; margin-top: -23px;}
+}
+
+@media screen and (max-width: 991px) {
+  /*Add CSS that only activates on screens less than 991px here*/
+  .container {width:100%;}
+  .img-as-btn {width: 100%;}
+  .headline {font-size: 1.8em;}
+  .chapter {font-size: 1.15em}
+  .sub-chapter {font-size: 1.15em}
+  .puzzles {padding-left: 47px;}
+  .gender-graph-math {width:500px; height: 450px;margin-top: -3px; margin-right: 55px;}
+  .list {font-size: 95%}
+  .css-typing {font-size: 62%;}
+}
+
+@media screen and (max-width: 1199px) {
+  /*Add CSS that only activates on screens less than 991px here*/
+  .container {width:100%;}
+
 }
