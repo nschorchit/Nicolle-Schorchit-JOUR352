@@ -10,6 +10,7 @@
 .navbar-brand {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+
 }
 .nav-link {
   font-family: 'Montserrat', sans-serif;
@@ -27,6 +28,22 @@ body {
 
 }
 
+/* Banner border color*/
+.banner {
+  border: 6px solid #a0e05f;
+  border-radius: 6px;
+}
+
+/*Description div here*/
+.description {
+  border: 6px solid #a0e05f;
+  border-radius: 6px;
+  background-color: gray;
+  padding: 15px 10px 10px 10px;
+  color: white;
+  margin-top: 45px;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -39,7 +56,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #20c997;
+  background-color: #7ebd3e;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -82,17 +99,6 @@ h3 {
   padding: 5px 5px 5px 5px;
 }
 
-.icons {
-  border-radius: 50%;
-  width: 50px;
-  height: 40px;
-  position: relative;
-  border: 6px solid #20c997;
-  left: 425px;
-  top: 45px;
-  z-index: 2
-
-}
 
 .experiences {
   top: -75px;
@@ -109,8 +115,7 @@ h3 {
 .sectionheader {
   padding: 10px 40px;
   background: rgb(34,193,195);
-  background: linear-gradient(55deg, rgba(34,193,195,1) 51%, rgba(253,187,45,1) 85%);
-  border: 6px solid #20c997;
+  border: 6px solid #a0e05f;
   width: 320px;
   border-radius: 6px;
   text-align: center;
@@ -118,9 +123,9 @@ h3 {
   left: 290px;
   top: 20px;
   color: white;
-  position: relative;
   z-index: 2;
 }
+
 
 .two {
   top: -100px;
@@ -139,13 +144,20 @@ h3 {
 
 .left-three {
   left: -27.4%;
-  top: -340px;
+  top: -475px;
 }
 
 .left-skills {
   left: -27.4%;
-  top: -340px;
+  top: -575px;
 }
+/* Place the container to the right */
+.right-one {
+  left: 27.4%;
+  top: -400px;
+
+}
+
 /* Place the container to the right */
 .right {
   left: 27.4%;
@@ -262,4 +274,7 @@ h3 {
 /* copyright footer */
 .footer {
   text-align: center;
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
